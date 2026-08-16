@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EngCalc — Memória de Cálculo Técnica</title>
+  <meta name="description" content="Memória de cálculo técnica para engenharia: mecânica, computação e estruturas. Fórmulas verificadas, diagramas e verificação de norma." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500;600;700&family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════ TITLE BLOCK ═══════ -->
+  <header class="titleblock">
+    <div class="tb-inner">
+      <div class="tb-brand">
+        <div class="tb-mark">
+          <svg width="22" height="22" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="14,2 25,8 25,20 14,26 3,20 3,8" stroke="#1f5fbf" stroke-width="1.5" fill="none"/>
+            <line x1="10" y1="9"  x2="10" y2="19" stroke="#14202e" stroke-width="1.8" stroke-linecap="round"/>
+            <line x1="10" y1="9"  x2="18" y2="9"  stroke="#14202e" stroke-width="1.8" stroke-linecap="round"/>
+            <line x1="10" y1="14" x2="16" y2="14" stroke="#1f5fbf" stroke-width="1.8" stroke-linecap="round"/>
+            <line x1="10" y1="19" x2="18" y2="19" stroke="#14202e" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div>
+          <div class="tb-name">Eng<b>Calc</b></div>
+          <div class="tb-tagline">memória de cálculo técnica</div>
+        </div>
+      </div>
+
+      <nav class="tb-tabs" id="area-tabs" aria-label="Disciplinas"></nav>
+
+      <div class="tb-meta">
+        <span>REV <b>2.0</b></span>
+        <span>ESC <b>1:1</b></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══════ MAIN ═══════ -->
+  <main class="wrap">
+    <section class="sheet" id="index-sheet"></section>
+    <section id="worksheet"></section>
+    <section id="history"></section>
+  </main>
+
+  <!-- ═══════ CARIMBO (footer) ═══════ -->
+  <footer class="carimbo">
+    <div class="carimbo-grid">
+      <div class="cr-cell"><div class="cr-k">Projeto</div><div class="cr-v">EngCalc</div></div>
+      <div class="cr-cell"><div class="cr-k">Revisão</div><div class="cr-v">2.0 · 2025</div></div>
+      <div class="cr-cell"><div class="cr-k">Folha</div><div class="cr-v">01 / 01</div></div>
+      <div class="cr-cell cr-wide">
+        <div class="cr-k">Observações</div>
+        <div class="cr-disc">Resultados para fins técnicos e educacionais. Confirme sempre com as normas vigentes (ABNT, NBR, ISO) e com responsável técnico habilitado.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
